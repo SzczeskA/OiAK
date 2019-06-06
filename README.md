@@ -1,5 +1,5 @@
 # OiAK
-Projekt
+
 Symulator jest dostępny pod linkiem https://www.labcenter.com/downloads/
 Symulację odpala się i zatrzymuje w lewym dolnym rogu okna, wówczas automatycznie wyświetla się i znika interfejs pozwalający wyświetlać stan na szynach danych.
 Podpięte szyny to CONTROL(0-5)<zapis do rejestru lub urządzenia o adresie podanym na tej szynie CONTROL(6-11)<odczyt z rejestru lub urządzenia o tym adresie, DATA(0-7)<podgląd na szynę danych procesora (jej stan nie musi ulegać zmianie przy każdej mikroinstrukcji, ponieważ niektóre elementy nie są połączone za jej pomocą), ORDER(0-7) numer aktualnie wykonywanej instrukcji (FF oznacza instrukcję zmieniającą instrukcję).
